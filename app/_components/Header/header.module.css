@@ -1,0 +1,20 @@
+.hero {
+  display: flex;
+  gap: .5rem;
+  flex: 1;
+  flex-direction: column;
+  background-color: var(--primary);
+  padding: 5rem;
+  padding-left: 14rem;
+  background-image: url('/disks.webp');
+  background-repeat: no-repeat;
+  background-position: -16rem;
+}
+
+.title {
+  color: rgb(4,4,3);
+}
+
+.main {
+  display: flex;
+}

@@ -11,3 +11,9 @@
   max-width: 37rem;
   align-self: center;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

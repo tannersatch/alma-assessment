@@ -1,0 +1,50 @@
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  padding: 2rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.table {
+  border: 1px solid var(--outline);
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.th, .td {
+  padding: 1rem;
+  border: 1px solid var(--outline);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.th {
+  font-weight: normal;
+  text-align: left;
+  opacity: .5;
+}
+
+.tfoot td {
+  text-align: right;
+  border: none;
+}
+
+.tfoot td a {
+  background-color: var(--background);
+  color: var(--foreground);
+  margin-left: 1rem;
+}

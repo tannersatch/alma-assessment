@@ -1,0 +1,13 @@
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.checkbox input {
+  width: auto;
+  min-width: none;
+  margin-right: .5rem;
+}
